@@ -1,8 +1,12 @@
 ---
 title: "TBI Technical Test"
 author: "Josefina Silva"
-format: html
-editor: visual
+format:
+  html:
+    css: styles.css 
+    toc: true
+    number-sections: true
+    keep-tex: true
 ---
 
 ## Quarto
