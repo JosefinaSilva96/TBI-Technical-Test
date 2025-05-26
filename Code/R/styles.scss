@@ -51,3 +51,15 @@ nav.sidebar {
 a {
   color: #4C86B5;
 }
+
+/* Show section numbers */
+.quarto-section-identifier {
+  display: inline;
+  margin-right: 0.4em;
+  font-weight: bold;
+}
+
+nav.toc ol li::marker {
+  font-weight: bold;
+  color: #4C86B5;  // same blue as your title
+}
