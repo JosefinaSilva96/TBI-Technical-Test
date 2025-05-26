@@ -1,3 +1,60 @@
+/* Background and font */
+body {
+  background-color: #f4f9f8;
+  font-family: 'Georgia', serif;
+  color: #2d2d2d;
+  line-height: 1.7;
+}
+
+/* Title */
 h1.title {
+  color: #324b66;
+  font-size: 2.8rem;
+  font-family: 'Georgia', serif;
+}
+
+/* Section headings */
+h2, h3 {
+  color: #3c5f7f;
+  font-family: 'Georgia', serif;
+}
+
+/* Sidebar/table of contents */
+nav.sidebar {
+  background-color: #e5f1ef;
+  padding: 1rem;
+}
+
+nav.sidebar ul {
+  font-family: 'Georgia', serif;
+  font-size: 0.95rem;
+}
+
+a {
   color: #4C86B5;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Code block styling */
+pre code {
+  background-color: #eef4f4;
+  border: 1px solid #cfdcdc;
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+
+/* Blockquotes */
+blockquote {
+  border-left: 4px solid #4C86B5;
+  padding-left: 1rem;
+  color: #5a5a5a;
+  background-color: #f0f7fa;
+}
+
+/* Optional: rounded corners on images and containers */
+img {
+  border-radius: 8px;
 }

@@ -3,10 +3,10 @@ title: "TBI Technical Test"
 author: "Josefina Silva"
 format:
   html:
-    css: styles.css 
-    toc: true
-    number-sections: true
-    keep-tex: true
+    theme: ""          # disables Bootstrap theme properly
+    css: styles.scss   # uses your custom stylesheet
+    number-sections: false
+    smooth-scroll: true
 ---
 
 ## Quarto
