@@ -1,9 +1,6 @@
 [build]
-command = "quarto render"
+command = ""
 publish = "Code/R"
 
 [build.environment]
 NODE_VERSION = "18"
-
-[[plugins]]
-package = "netlify-plugin-quarto"
